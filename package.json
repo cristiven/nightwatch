@@ -1,0 +1,27 @@
+{
+  "name": "Nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "e2e-test": "nightwatch",
+    "e2e-test:chrome": "npm run e2e-test -- --env chrome",
+    "e2e-test:firefox": "npm run e2e-test -- --env firefox",
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch --env chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.techandsolve.com/cristian.vargas/Nightwatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^78.0.1",
+    "cucumber": "^6.0.4",
+    "cucumber-pretty": "^6.0.0",
+    "nightwatch": "^1.2.4",
+    "nightwatch-api": "^2.3.0"
+  }
+}
